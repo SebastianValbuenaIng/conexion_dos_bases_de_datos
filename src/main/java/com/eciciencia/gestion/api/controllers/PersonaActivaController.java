@@ -13,6 +13,7 @@ public class PersonaActivaController {
     @Autowired
     private PersonaActivaRepository personaActivaRepository;
 
+
     @GetMapping
     public PersonaActivaEntity get() {
         return personaActivaRepository.findByNombre("YULY ANDREA SANCHEZ LONDOÑO");
